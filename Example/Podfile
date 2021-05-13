@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SKKeyValueStore_Example' do
+  pod 'SKKeyValueStore', :path => '../'
+
+  target 'SKKeyValueStore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
