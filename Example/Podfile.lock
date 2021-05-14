@@ -1,0 +1,23 @@
+PODS:
+  - CleanJSON (1.0.8)
+  - SKKeyValueStore (0.1.0):
+    - CleanJSON
+
+DEPENDENCIES:
+  - SKKeyValueStore (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CleanJSON
+
+EXTERNAL SOURCES:
+  SKKeyValueStore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CleanJSON: 7cc2fbb8f3face17e80a25a2266199ad31002bfc
+  SKKeyValueStore: c0a7d969fda22541bf53e84c108a9ad1a5ed95fc
+
+PODFILE CHECKSUM: a478195069af5311b2daab10d49ac299d8795c47
+
+COCOAPODS: 1.10.1
