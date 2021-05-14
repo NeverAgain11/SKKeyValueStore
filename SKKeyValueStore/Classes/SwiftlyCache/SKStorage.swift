@@ -63,7 +63,7 @@ public class SKStorage {
 
     private let queue: DispatchQueue = DispatchQueue(label: cacheIdentifier, attributes: DispatchQueue.Attributes.concurrent)
 
-    public init(cacheName: String = "swiftyCache") {
+    public init(cacheName: String = "SKKeyValueStore") {
         self.diskCachePath = NSSearchPathForDirectoriesInDomains(.libraryDirectory, .userDomainMask, true)[0]
         self.diskCachePath = self.diskCachePath + ("/\(cacheName)")
         self.diskCache = DiskCache(path: self.diskCachePath)
