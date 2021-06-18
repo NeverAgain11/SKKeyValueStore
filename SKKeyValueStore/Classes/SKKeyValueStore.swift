@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class SKKeyValueStore {
+public final class SKKeyValueStore {
     static public let shared = SKKeyValueStore()
     
     lazy var cache: SKStorage = {

@@ -1,14 +1,9 @@
-#
-# Be sure to run `pod lib lint SKKeyValueStore.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
+# pod lib lint --verbose --allow-warnings SKKeyValueStore.podspec
+# pod trunk push --verbose --allow-warnings SKKeyValueStore.podspec
 
 Pod::Spec.new do |s|
   s.name             = 'SKKeyValueStore'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of SKKeyValueStore.'
 
 # This description is used to generate tags and improve search results.
